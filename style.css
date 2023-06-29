@@ -1,0 +1,178 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Poppins&display=swap');
+body{
+    margin: 0;
+}
+
+
+.presentation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.links{
+    text-decoration: underline;
+    font-weight: 200;
+    margin-bottom: 40px;
+}
+
+.logo{ 
+    color: white;
+    margin-right: 300px;   
+    max-width: 70px;
+    max-height: 70px;
+    background-color:#19BFD5 ;
+    font-size: 40px;
+    font-family: 'Italiana', serif;
+}
+
+.top-bar{
+    width: 100%;
+    margin: 0;
+    background-color: #19BEC1;
+}
+
+.titolo{
+    font-family: 'Poppins', sans-serif;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    
+}
+
+.up{
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.down{
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+#red-circle{
+ margin-top: 100px;
+ margin-left: 300px;
+ background-color: red;
+ max-width: 250px; 
+ height: 250px;  
+ border-radius: 1000px;
+ position: relative;
+}
+
+#grey-square{
+    margin-left: 400px;
+    background-color: grey;
+    max-width: 200px;
+    height: 300px;
+    margin-top:-40px
+}
+
+.container-text{
+    position: absolute;
+    left: 1300px;
+    top: 50%;
+    color: red;
+    font-family: 'Poppins', sans-serif;
+    max-width: 400px;
+    font-size: 30px;
+    font-family: 'Italiana', serif;
+}
+
+.second-paragraph{
+    color:grey;
+    font-family: 'Italiana', serif;
+    font-size: 20px;
+}
+
+#separateur{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.circle{
+    margin-top: 20px;
+    background-color: #D9D9D9;
+    border-radius:200px;
+    border: 10px solid #53A4EF;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.dot{
+    bottom: 25px;
+    margin:20px;
+    left: 20px;
+    position: relative;
+    background-color: gray;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+
+.formation{
+    position: relative;
+    left: 130px;
+    bottom: 70px;
+}
+
+#sottotitolo{
+    font-weight: 1000;
+}
+
+.work{
+    font-size: 16px;
+}
+
+#background-color-slightly-darker{
+    background-color: #FDFDFD;
+}
+
+.mes-competences{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 60px;
+}
+
+.slightly-centered{
+margin-left: 152px;
+}
+
+#competence{
+    font-weight: 1000;
+}
+
+.more-centered{
+    margin-right: 700px;
+}
+
+.trois-conaissances{
+    margin-left: 400px;
+}
+
+.joge{
+    width: 400px;
+    background-color: #D9D9D9;
+    border-radius: 100px;
+    color: #D9D9D9;
+}
+
+.barre{
+    position: absolute;
+    left: 900px;
+    bottom:  -922px;
+}
+
+#contact{
+    font-weight: 1000;
+}
+
